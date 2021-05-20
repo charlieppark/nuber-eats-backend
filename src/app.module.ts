@@ -10,14 +10,6 @@ import { RestaurantsModule } from './restaurants/restaurants.module';
     }),
     RestaurantsModule,
     TypeOrmModule.forRoot({
-        "type": "postgres",
-        "host": "/var/run/postgresql",
-        "port": 5432,
-        "username": "postgres",
-        "password": "0309",
-        "database": "template0",
-        "synchronize": true,
-        "logging": true,
     })
   ],
   controllers: [],
